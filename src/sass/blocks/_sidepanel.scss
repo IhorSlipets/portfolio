@@ -8,6 +8,11 @@
     align-items: center;
     height: 340px;
     z-index: 3;
+    &__link{
+        &:hover {
+            box-shadow: 5px 5px 15px #f84242;
+        }
+    }
     &__divider {
         width: 2px;
         height: 70px;
